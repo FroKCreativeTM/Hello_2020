@@ -145,18 +145,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Core.cpp" />
-    <ClCompile Include="Graphics.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="WindowsHeader.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Core.h" />
-    <ClInclude Include="Graphics.h" />
-    <ClInclude Include="WindowsHeader.h" />
+    <ClCompile Include="src\Core.cpp" />
+    <ClCompile Include="src\Graphics.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\WindowsHeader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Core.h" />
+    <ClInclude Include="src\Graphics.h" />
+    <ClInclude Include="src\WindowsHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
